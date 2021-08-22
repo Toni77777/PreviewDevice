@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "PreviewDevice"
   spec.version      = "0.1.0"
-  spec.summary      = "PreviewDevice - is a sugar wrapper around the Apple Preview Device. SwiftUI"
+  spec.summary      = "PreviewDevice - library with elegant syntax for Preview Device in SwiftUI"
   spec.description  = "PreviewDevice - is a sugar wrapper around the Apple Preview Device. SwiftUI"
   spec.homepage     = "https://github.com/Toni77777/PreviewDevice"
   spec.license      = "MIT"
