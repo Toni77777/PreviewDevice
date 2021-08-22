@@ -10,6 +10,7 @@
 		008AD9F026D2F96C00C95A34 /* PreviewDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008AD9E626D2F96C00C95A34 /* PreviewDevice.framework */; };
 		008AD9F526D2F96C00C95A34 /* PreviewDeviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008AD9F426D2F96C00C95A34 /* PreviewDeviceTests.swift */; };
 		008AD9F726D2F96C00C95A34 /* PreviewDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 008AD9E926D2F96C00C95A34 /* PreviewDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		008ADA0726D2FA9000C95A34 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008ADA0626D2FA9000C95A34 /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		008AD9EF26D2F96C00C95A34 /* PreviewDeviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreviewDeviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		008AD9F426D2F96C00C95A34 /* PreviewDeviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewDeviceTests.swift; sourceTree = "<group>"; };
 		008AD9F626D2F96C00C95A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008ADA0626D2FA9000C95A34 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				008AD9E926D2F96C00C95A34 /* PreviewDevice.h */,
 				008AD9EA26D2F96C00C95A34 /* Info.plist */,
+				008ADA0626D2FA9000C95A34 /* Device.swift */,
 			);
 			path = PreviewDevice;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				TargetAttributes = {
 					008AD9E526D2F96C00C95A34 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					008AD9EE26D2F96C00C95A34 = {
 						CreatedOnToolsVersion = 12.4;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008ADA0726D2FA9000C95A34 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		008AD9FB26D2F96C00C95A34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5NVWJ2SDAF;
@@ -358,6 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = toni77777.PreviewDevice;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +373,7 @@
 		008AD9FC26D2F96C00C95A34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5NVWJ2SDAF;
@@ -391,6 +399,7 @@
 		008AD9FE26D2F96C00C95A34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5NVWJ2SDAF;
 				INFOPLIST_FILE = PreviewDeviceTests/Info.plist;
@@ -409,6 +418,7 @@
 		008AD9FF26D2F96C00C95A34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5NVWJ2SDAF;
 				INFOPLIST_FILE = PreviewDeviceTests/Info.plist;
