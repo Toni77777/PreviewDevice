@@ -11,6 +11,30 @@ import Foundation
 
 public enum Device: String {
     
+    // MARK: - iPhone
+    
+    case iphone6Plus = "iPhone 6 Plus"
+    case iphone6 = "iPhone 6"
+    case iphone6s = "iPhone 6s"
+    case iphone6sPlus = "iPhone 6s Plus"
+    case iphoneSE_1Gen = "iPhone SE (1st generation)"
+    case iphone7 = "iPhone 7"
+    case iphone7Plus = "iPhone 7 Plus"
+    case iphone8 = "iPhone 8"
+    case iphone8Plus = "iPhone 8 Plus"
+    case iphoneX = "iPhone X"
+    case iphoneXs = "iPhone Xs"
+    case iphoneXsMax = "iPhone Xs Max"
+    case iphoneXr = "iPhone Xʀ"
+    case iphone11 = "iPhone 11"
+    case iphone11Pro = "iPhone 11 Pro"
+    case iphone11ProMax = "iPhone 11 Pro Max"
+    case iphoneSE_2Gen = "iPhone SE (2nd generation)"
+    case iphone12Mini = "iPhone 12 mini"
+    case iphone12 = "iPhone 12"
+    case iphone12Pro = "iPhone 12 Pro"
+    case iphone12ProMax = "iPhone 12 Pro Max"
+    
     // MARK: - Mac
     
     case mac = "Mac"
