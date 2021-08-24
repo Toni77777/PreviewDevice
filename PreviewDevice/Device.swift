@@ -7,8 +7,6 @@
 
 import Foundation
 
-#if canImport(SwiftUI)
-
 public enum Device: String {
     
     // MARK: - iPhone
@@ -92,5 +90,3 @@ public enum Device: String {
     case watchSeries6_40mm = "Apple Watch Series 6 - 40mm"
     case watchSeries6_44mm = "Apple Watch Series 6 - 44mm"
 }
-
-#endif
