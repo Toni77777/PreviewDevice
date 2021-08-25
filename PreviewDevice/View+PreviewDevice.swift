@@ -32,7 +32,7 @@ public extension View {
     }
     
     func previewDevice(device: Device, orientations: [InterfaceOrientation]) -> some View {
-        return ForEach(0..<orientations.count) { index in
+        ForEach(0..<orientations.count, id: \.self) { index in
             previewDevice(device: device)
                 .previewInterfaceOrientation(orientations[index])
         }
