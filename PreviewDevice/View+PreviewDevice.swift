@@ -22,4 +22,20 @@ public extension View {
         }
     }
 }
+
+@available(iOS 15.0, OSX 12.00, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+public extension View {
+    
+    func previewDevice(device: Device, orientation: InterfaceOrientation) -> some View {
+        previewDevice(device: device)
+            .previewInterfaceOrientation(orientation)
+    }
+    
+    func previewDevice(device: Device, orientations: [InterfaceOrientation]) -> some View {
+        return ForEach(0..<orientations.count) { index in
+            previewDevice(device: device)
+                .previewInterfaceOrientation(orientations[index])
+        }
+    }
+}
 #endif
