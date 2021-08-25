@@ -21,6 +21,18 @@ public extension View {
             previewDevice(device: device)
         }
     }
+    
+    func previewDevice(device: Device, colorScheme: ColorScheme) -> some View {
+        previewDevice(device: device)
+            .preferredColorScheme(colorScheme)
+    }
+    
+    func previewDevice(device: Device, colorSchemes: [ColorScheme]) -> some View {
+        ForEach(0..<colorSchemes.count, id: \.self) { index in
+            previewDevice(device: device)
+                .preferredColorScheme(colorSchemes[index])
+        }
+    }
 }
 
 @available(iOS 15.0, OSX 12.00, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
