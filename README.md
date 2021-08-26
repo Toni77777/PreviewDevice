@@ -24,37 +24,39 @@ Result
 <div align="left"><img src="Assets/Iphone12WithColorSchemes.png" width="382px" height="100%"></div>
 
 
-### Preview on device 
+
+**Preview on device** 
 
 ```swift
 .previewDevice(device: .iphone12)
 ```
 
-### Preview on devices 
+
+**Preview on devices** 
 
 ```swift
 .previewDevice(device: [.iphone8, .iphone11Pro .iphone12, .iphone12ProMax])
 ```
 
-### Preview on device with ColorScheme (light, dark)
+**Preview on device with ColorScheme (light, dark)**
 
 ```swift
 .previewDevice(device: .iphone12, colorScheme: .light)
 ```
 
-### Preview on device with ColorSchemes
+**Preview on device with ColorSchemes**
 
 ```swift
 .previewDevice(device: .iphone12, colorScheme: [.light, .dark])
 ```
 
-### Preview on device with orientation (InterfaceOrientation)
+**Preview on device with orientation (InterfaceOrientation)**
 
 ```swift
 .previewDevice(device: .iphone12, orientation: .portrait)
 ```
 
-### Preview on device with orientations
+**Preview on device with orientations**
 
 ```swift
 .previewDevice(device: .iphone12, orientation: [.portrait, .landscapeLeft, .landscapeRight])
