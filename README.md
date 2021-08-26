@@ -21,6 +21,8 @@ struct ContentView_Previews: PreviewProvider {
 
 Result 
 
+<div align="left"><img src="Assets/Iphone12WithColorSchemes.png" width="382px" height="100%"></div>
+
 
 ### Preview on device 
 
