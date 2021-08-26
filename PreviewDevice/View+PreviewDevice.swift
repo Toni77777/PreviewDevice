@@ -21,6 +21,10 @@ public extension View {
             previewDevice(device: device)
         }
     }
+}
+
+@available(iOS 13.0, macOS 11.0, macCatalyst 13.0, tvOS 13.0, watchOS 6.0, *)
+public extension View {
     
     func previewDevice(device: Device, colorScheme: ColorScheme) -> some View {
         previewDevice(device: device)
