@@ -7,6 +7,21 @@
 
 ## Usage 
 
+Example:
+
+```swift
+struct ContentView_Previews: PreviewProvider {
+    
+    static var previews: some View {
+        ContentView()
+            .previewDevice(device: .iphone12,colorSchemes: ColorScheme.allCases)
+    }
+}
+```
+
+Result 
+
+
 ### Preview on device 
 
 ```swift
