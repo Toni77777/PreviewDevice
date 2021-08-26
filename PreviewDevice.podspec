@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.watchos.deployment_target = "6.0"
   spec.tvos.deployment_target = "13.0"
   spec.source       = { :git => "https://github.com/Toni77777/PreviewDevice.git", :tag => "#{spec.version}" }
-  spec.source_files  = "PreviewDevice/Sources/*.swift"
+  spec.source_files  = "Sources/*.swift"
   spec.swift_version = "4.2"
 end
