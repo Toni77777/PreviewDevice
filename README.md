@@ -25,12 +25,6 @@
 .previewDevice(device: .iphone12, colorScheme: .light)
 ```
 
-### Preview on device with ColorSchemes (light, dark)
-
-```swift
-.previewDevice(device: .iphone12, colorScheme: [.light, .dark])
-```
-
 ### Preview on device with ColorSchemes
 
 ```swift
