@@ -2,7 +2,7 @@
 //  View+PreviewDevice.swift
 //  PreviewDevice
 //
-//  Created by Anton Paliakou on 8/25/21.
+//  Created by Anton Paliakou on 8/26/21.
 //
 
 #if canImport(SwiftUI)
@@ -41,12 +41,12 @@ public extension View {
 
 @available(iOS 15.0, OSX 12.00, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 public extension View {
-    
+
     func previewDevice(device: Device, orientation: InterfaceOrientation) -> some View {
         previewDevice(device: device)
             .previewInterfaceOrientation(orientation)
     }
-    
+
     func previewDevice(device: Device, orientations: [InterfaceOrientation]) -> some View {
         ForEach(0..<orientations.count, id: \.self) { index in
             previewDevice(device: device)
