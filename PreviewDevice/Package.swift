@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "PreviewDevice",
+    platforms: [.iOS(.v13), .tvOS(.v13), .watchOS(.v6), .macOS(.v10_15)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
