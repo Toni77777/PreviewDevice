@@ -6,7 +6,10 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/Toni77777/PreviewDevice"
   spec.license      = "MIT"
   spec.author             = { "Anton Paliakov" => "toxa95401@gmail.com" }
-  spec.platform     = :ios, "13.0"
+  spec.ios.deployment_target = "13.0"
+  spec.osx.deployment_target = "10.15"
+  spec.watchos.deployment_target = "6.0"
+  spec.tvos.deployment_target = "13.0"
   spec.source       = { :git => "https://github.com/Toni77777/PreviewDevice.git", :tag => "#{spec.version}" }
   spec.source_files  = "PreviewDevice/*.swift"
   spec.swift_version = "4.2"
