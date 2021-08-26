@@ -7,6 +7,21 @@
 
 ## Usage 
 
+Example:
+
+```swift
+struct ContentView_Previews: PreviewProvider {
+    
+    static var previews: some View {
+        ContentView()
+            .previewDevice(device: .iphone12, colorSchemes: ColorScheme.allCases)
+    }
+}
+```
+
+Result 
+
+
 ### Preview on device 
 
 ```swift
@@ -54,6 +69,6 @@ pod PreviewDevice
 
 ### [Swift Package Manager](https://github.com/apple/swift-package-manager)
 
-Open Xcode, File -> Swift Packages -> Add Package Dependency and paste library git url:
+Open Xcode, File -> Swift Packages -> Add Packages.. and paste library git url:
 
 ```https://github.com/Toni77777/PreviewDevice.git```
