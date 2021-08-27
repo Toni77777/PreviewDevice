@@ -37,7 +37,7 @@ Result
 ### Preview on devices
 
 ```swift
-.previewDevice(device: [.iphone8, .iphone11Pro .iphone12, .iphone12ProMax])
+.previewDevices(device: [.iphone8, .iphone11Pro .iphone12, .iphone12ProMax])
 ```
 
 ### Preview on device with ColorScheme (light, dark)
