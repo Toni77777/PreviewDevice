@@ -61,7 +61,7 @@ Result
 ### Preview on device with orientations
 
 ```swift
-.previewDevice(device: .iphone12, orientation: [.portrait, .landscapeLeft, .landscapeRight])
+.previewDevice(device: .iphone12, orientations: [.portrait, .landscapeLeft, .landscapeRight])
 ```
 
 ## Installation
