@@ -76,3 +76,7 @@ pod PreviewDevice
 Open Xcode, File -> Swift Packages -> Add Packages.. and paste library git url:
 
 ```https://github.com/Toni77777/PreviewDevice.git```
+
+
+## License
+PreviewDevice is released under the MIT license.
