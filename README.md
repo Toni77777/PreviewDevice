@@ -1,4 +1,6 @@
 # PreviewDevice
+[![Platforms](https://img.shields.io/cocoapods/p/PreviewDevice)
+[![Xcode](https://img.shields.io/badge/Xcode-13-blue)
 
 ## Requirements
 
