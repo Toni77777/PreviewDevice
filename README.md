@@ -23,7 +23,7 @@ struct ContentView_Previews: PreviewProvider {
 
 Result 
 
-<div align="left"><img src="Assets/Iphone12WithColorSchemes.png" width="382px" height="100%"></div>
+<div align="left"><img src="Assets/Iphone12ColorSchemes.png" width="382px" height="100%"></div>
 
 
 
@@ -40,7 +40,7 @@ Result
 .previewDevices(device: [.iphone8, .iphone11Pro .iphone12, .iphone12ProMax])
 ```
 
-### Preview on device with ColorScheme (light, dark)
+### Preview on device with color scheme (light, dark)
 
 ```swift
 .previewDevice(device: .iphone12, colorScheme: .light)
@@ -62,6 +62,12 @@ Result
 
 ```swift
 .previewDevice(device: .iphone12, orientations: [.portrait, .landscapeLeft, .landscapeRight])
+```
+
+### Preview on device with orientation and color schemes
+
+```swift
+    previewDevice(device: Device, orientation: InterfaceOrientation, colorSchemes: [ColorScheme])
 ```
 
 ## Installation

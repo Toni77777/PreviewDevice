@@ -53,5 +53,13 @@ public extension View {
                 .previewInterfaceOrientation(orientations[index])
         }
     }
+    
+    func previewDevice(device: Device, orientation: InterfaceOrientation, colorSchemes: [ColorScheme]) -> some View {
+        ForEach(0..<colorSchemes.count, id: \.self) { index in
+            previewDevice(device: device)
+                .previewInterfaceOrientation(orientation)
+                .preferredColorScheme(colorSchemes[index])
+        }
+    }
 }
 #endif
