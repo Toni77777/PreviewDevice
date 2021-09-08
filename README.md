@@ -88,7 +88,9 @@ pod PreviewDevice
 
 Open Xcode, File -> Swift Packages -> Add Packages.. and paste library git url:
 
-```https://github.com/Toni77777/PreviewDevice.git```
+```
+https://github.com/Toni77777/PreviewDevice.git
+```
 
 ## Articles 
 [Meet PreviewDevice 0.7.0](https://dev.to/toni777772/meet-previewdevice-0-7-0-1dpg) 
