@@ -72,7 +72,7 @@ Result
 ### Preview on device with orientation and color schemes
 
 ```swift
-    previewDevice(device: .iphone12, orientation: .portrait, colorSchemes: [.light, .dark])
+.previewDevice(device: .iphone12, orientation: .portrait, colorSchemes: [.light, .dark])
 ```
 
 ## Installation
