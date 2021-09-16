@@ -58,8 +58,8 @@ final class DeviceIpadTests: XCTestCase {
         XCTAssertEqual(iphone.rawValue, "iPad mini 4")
     }
     
-    func testIpadMini_5GenHasCorretName() {
-        let iphone: Device = .ipadMini_5Gen
+    func testIpadMini5GHasCorretName() {
+        let iphone: Device = .ipadMini5
         XCTAssertEqual(iphone.rawValue, "iPad mini (5th generation)")
     }
     
