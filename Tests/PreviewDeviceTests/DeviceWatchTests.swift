@@ -81,6 +81,18 @@ final class DeviceWatchTests: XCTestCase {
         XCTAssertEqual(iphone.rawValue, "Apple Watch Series 6 - 44mm")
     }
     
+    // MARK: - Watch Series 7 41mm, 45mm
+    
+    func testWatchSeries7_41mmHasCorretName() {
+        let iphone: Device = .watchSeries7_41mm
+        XCTAssertEqual(iphone.rawValue, "Apple Watch Series 7 - 41mm")
+    }
+    
+    func testWatchSeries7_45mmHasCorretName() {
+        let iphone: Device = .watchSeries7_45mm
+        XCTAssertEqual(iphone.rawValue, "Apple Watch Series 7 - 45mm")
+    }
+    
     // MARK: - Watch SE 40mm, 44mm
     
     func testWatchSE_40mmHasCorretName() {

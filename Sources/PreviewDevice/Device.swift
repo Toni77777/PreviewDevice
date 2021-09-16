@@ -33,6 +33,10 @@ public enum Device: String {
     case iphone12 = "iPhone 12"
     case iphone12Pro = "iPhone 12 Pro"
     case iphone12ProMax = "iPhone 12 Pro Max"
+    case iphone13Mini = "iPhone 13 mini"
+    case iphone13 = "iPhone 13"
+    case iphone13Pro = "iPhone 13 Pro"
+    case iphone13ProMax = "iPhone 13 Pro Max"
     
     // MARK: - iPad
     
@@ -42,6 +46,8 @@ public enum Device: String {
     case ipadMini2 = "iPad mini 2"
     case ipadMini3 = "iPad mini 3"
     case ipadMini4 = "iPad mini 4"
+    case ipadMini5 = "iPad mini (5th generation)"
+    case ipadMini6 = "iPad mini (6th generation)"
     case ipadAir2 = "iPad Air 2"
     case ipadPro9_7inch = "iPad Pro (9.7-inch)"
     case ipadPro12_9inch = "iPad Pro (12.9-inch)"
@@ -50,13 +56,13 @@ public enum Device: String {
     case ipadPro10_5inch = "iPad Pro (10.5-inch)"
     case ipad_6Gen = "iPad (6th generation)"
     case ipad_7Gen = "iPad (7th generation)"
+    case ipad_8Gen = "iPad (8th generation)"
+    case ipad_9Gen = "iPad (9th generation)"
     case ipadPro11inch_1Gen = "iPad Pro (11-inch) (1st generation)"
     case ipadPro12_9inch_3Gen = "iPad Pro (12.9-inch) (3rd generation)"
     case ipadPro11inch_2Gen = "iPad Pro (11-inch) (2nd generation)"
     case ipadPro12_9inch_4Gen = "iPad Pro (12.9-inch) (4th generation)"
-    case ipadMini_5Gen = "iPad mini (5th generation)"
     case ipadAir_3Gen = "iPad Air (3rd generation)"
-    case ipad_8Gen = "iPad (8th generation)"
     case ipadAir_4Gen = "iPad Air (4th generation)"
     
     // MARK: - iPod
@@ -90,4 +96,6 @@ public enum Device: String {
     case watchSE_44mm = "Apple Watch SE - 44mm"
     case watchSeries6_40mm = "Apple Watch Series 6 - 40mm"
     case watchSeries6_44mm = "Apple Watch Series 6 - 44mm"
+    case watchSeries7_41mm = "Apple Watch Series 7 - 41mm"
+    case watchSeries7_45mm = "Apple Watch Series 7 - 45mm"
 }
