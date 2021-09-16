@@ -63,6 +63,11 @@ final class DeviceIpadTests: XCTestCase {
         XCTAssertEqual(iphone.rawValue, "iPad mini (5th generation)")
     }
     
+    func testIpadMini6GHasCorretName() {
+        let iphone: Device = .ipadMini6
+        XCTAssertEqual(iphone.rawValue, "iPad mini (6th generation)")
+    }
+    
     // MARK: - Ipad 5 Gen, 6 Gen, 7 Gen, 8 Gen
     
     func testIpad_5GenHasCorretName() {
@@ -83,6 +88,11 @@ final class DeviceIpadTests: XCTestCase {
     func testIpad_8GenHasCorretName() {
         let iphone: Device = .ipad_8Gen
         XCTAssertEqual(iphone.rawValue, "iPad (8th generation)")
+    }
+    
+    func testIpad_9GenHasCorretName() {
+        let iphone: Device = .ipad_9Gen
+        XCTAssertEqual(iphone.rawValue, "iPad (9th generation)")
     }
     
     // MARK: - Ipad Pro
