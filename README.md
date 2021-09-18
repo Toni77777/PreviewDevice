@@ -21,7 +21,7 @@ struct ContentView_Previews: PreviewProvider {
     
     static var previews: some View {
         ContentView()
-            .previewDevice(device: .iphone12, colorSchemes: ColorScheme.allCases)
+            .previewDevice(device: .iphone13, colorSchemes: ColorScheme.allCases)
     }
 }
 ```
