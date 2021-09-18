@@ -94,6 +94,7 @@ https://github.com/Toni77777/PreviewDevice.git
 
 ## Articles 
 [Meet PreviewDevice 0.7.0](https://dev.to/toni777772/meet-previewdevice-0-7-0-1dpg) 
+[What's new in PreviewDevice 0.8.0](https://dev.to/toni777772/what-s-new-in-previewdevice-0-8-0-5dc0) 
 
 ## License
 PreviewDevice is released under the MIT license.
