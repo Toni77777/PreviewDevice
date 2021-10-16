@@ -5,9 +5,9 @@
 //  Created by Anton Paliakou on 10/15/21.
 //
 
-#if canImport(Cocoa) && canImport(SwiftUI)
+#if canImport(AppKit) && canImport(SwiftUI)
+import AppKit
 import SwiftUI
-import Cocoa
 
 public struct NSViewControllerPreview: NSViewControllerRepresentable {
         
@@ -21,7 +21,7 @@ public struct NSViewControllerPreview: NSViewControllerRepresentable {
         self.viewController = viewController
     }
 
-    // MARK: - UIViewControllerRepresentable
+    // MARK: - NSViewControllerRepresentable
     
     public func makeNSViewController(context: Context) -> NSViewController {
         viewController
