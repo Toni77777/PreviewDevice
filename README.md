@@ -7,7 +7,7 @@
 
 ## Requirements
 
-* Xcode 13+, macOS 12+
+* Dev environment: Xcode 13+, macOS 12+
 * iOS 13.0+, macOS 10.15+, Mac Catalyst 13.0+, tvOS 13.0+, watchOS 6.0+
 
 ## Usage 
