@@ -31,7 +31,6 @@ Result
 <div align="left"><img src="Assets/Iphone12ColorSchemes.png" width="382px" height="100%"></div>
 
 
-
 ### Preview on device
 
 ```swift
