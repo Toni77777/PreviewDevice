@@ -1,0 +1,13 @@
+osx_image: xcode13.1
+language: swift
+
+xcode_project: Package.swift
+xcode_scheme: PreviewDevice
+xcode_destination: platform=iOS Simulator,OS=14.5,name=iPhone 13
+
+branches:
+  only:
+  - main
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
