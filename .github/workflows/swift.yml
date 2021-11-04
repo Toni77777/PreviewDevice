@@ -10,18 +10,10 @@ jobs:
   build:
 
     runs-on: macos-latest
-    strategy:
-      matrix:
-        destination: ['platform=iOS Simulator,OS=14.5,name=iPhone 12']
-        xcode: ['/Applications/Xcode_13.0.app']
         
     steps:
     - uses: actions/checkout@v2
     - name: Build
       run: swift build -v
-      env:
-        DEVELOPER_DIR: ${{ matrix.xcode }}
     - name: Run tests
       run: swift test -v
-      env:
-        DEVELOPER_DIR: ${{ matrix.xcode }}
