@@ -27,4 +27,16 @@ final class DeviceAppleTVTests: XCTestCase {
         let iphone: Device = .appleTV4K1080p
         XCTAssertEqual(iphone.rawValue, "Apple TV 4K (at 1080p)")
     }
+    
+    // MARK: - Apple TV 4K 2 Gen
+    
+    func testAppleTV4KGen2HasCorrectName() {
+        let iphone: Device = .appleTV4K_2Gen
+        XCTAssertEqual(iphone.rawValue, "Apple TV 4K (2nd generation)")
+    }
+    
+    func testAppleTV4KGen21080pHasCorretName() {
+        let iphone: Device = .appleTV4K1080p_2Gen
+        XCTAssertEqual(iphone.rawValue, "Apple TV 4K (at 1080p) (2nd generation)")
+    }
 }
