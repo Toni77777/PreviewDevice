@@ -57,7 +57,7 @@ final class DeviceIphoneTests: XCTestCase {
         XCTAssertEqual(iphone.rawValue, "iPhone 8 Plus")
     }
     
-    // MARK: - Iphone SE 1 Gen, SE 2 Gen
+    // MARK: - Iphone SE 1 Gen, SE 2 Gen, SE 3 Gen
     
     func testIphoneSE1GenHasCorretName() {
         let iphone: Device = .iphoneSE_1Gen
@@ -67,6 +67,11 @@ final class DeviceIphoneTests: XCTestCase {
     func testIphoneSE2GenHasCorretName() {
         let iphone: Device = .iphoneSE_2Gen
         XCTAssertEqual(iphone.rawValue, "iPhone SE (2nd generation)")
+    }
+    
+    func testIphoneSE3GenHasCorrectName() {
+        let iphone: Device = .iphoneSE_3Gen
+        XCTAssertEqual(iphone.rawValue, "iPhone SE (3rd generation)")
     }
     
     // MARK: - Iphone X, Xs, XsMax, Xr
@@ -150,5 +155,27 @@ final class DeviceIphoneTests: XCTestCase {
     func testIphone13ProMaxHasCorretName() {
         let iphone: Device = .iphone13ProMax
         XCTAssertEqual(iphone.rawValue, "iPhone 13 Pro Max")
+    }
+    
+    // MARK: - Iphone 14, 14 Plus, 14 Pro, 14 Pro Max
+    
+    func testIphone14HasCorrectName() {
+        let iphone: Device = .iphone14
+        XCTAssertEqual(iphone.rawValue, "iPhone 14")
+    }
+    
+    func testIphone14PlusHasCorrectName() {
+        let iphone: Device = .iphone14Plus
+        XCTAssertEqual(iphone.rawValue, "iPhone 14 Plus")
+    }
+    
+    func testIphone14ProHasCorrectName() {
+        let iphone: Device = .iphone14Pro
+        XCTAssertEqual(iphone.rawValue, "iPhone 14 Pro")
+    }
+    
+    func testIphone14ProMaxHasCorrectName() {
+        let iphone: Device = .iphone14ProMax
+        XCTAssertEqual(iphone.rawValue, "iPhone 14 Pro Max")
     }
 }
