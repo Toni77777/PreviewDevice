@@ -42,6 +42,14 @@ public enum Device: String {
     case iphone14Plus = "iPhone 14 Plus"
     case iphone14Pro = "iPhone 14 Pro"
     case iphone14ProMax = "iPhone 14 Pro Max"
+    case iphone15 = "iPhone 15"
+    case iphone15Plus = "iPhone 15 Plus"
+    case iphone15Pro = "iPhone 15 Pro"
+    case iphone15ProMax = "iPhone 15 Pro Max"
+    case iphone16 = "iPhone 16"
+    case iphone16Plus = "iPhone 16 Plus"
+    case iphone16Pro = "iPhone 16 Pro"
+    case iphone16ProMax = "iPhone 16 Pro Max"
     
     // MARK: - iPad
     

@@ -178,4 +178,26 @@ final class DeviceIphoneTests: XCTestCase {
         let iphone: Device = .iphone14ProMax
         XCTAssertEqual(iphone.rawValue, "iPhone 14 Pro Max")
     }
+    
+    // MARK: - Iphone 15, 15 Plus, 15 Pro, 15 Pro Max
+    
+    func testIphone15HasCorrectName() {
+        let iphone: Device = .iphone15
+        XCTAssertEqual(iphone.rawValue, "iPhone 15")
+    }
+    
+    func testIphone15PlusHasCorrectName() {
+        let iphone: Device = .iphone15Plus
+        XCTAssertEqual(iphone.rawValue, "iPhone 15 Plus")
+    }
+    
+    func testIphone15ProHasCorrectName() {
+        let iphone: Device = .iphone15Pro
+        XCTAssertEqual(iphone.rawValue, "iPhone 15 Pro")
+    }
+    
+    func testIphone15ProMaxHasCorrectName() {
+        let iphone: Device = .iphone15ProMax
+        XCTAssertEqual(iphone.rawValue, "iPhone 15 Pro Max")
+    }
 }
